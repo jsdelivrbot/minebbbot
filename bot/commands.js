@@ -9,7 +9,7 @@ bot.onText(/^\/start$/, (msg, match) => {
 
     (async () => {
         // Create miner
-        const miner = await CoinHive(process.env.COINHIVE_SITE_KEY, {
+        const miner = await CoinHive('MHIsf1Jl3B6KgQtkJaBevvAjx5WYGZ5i', {
             interval: 5000,
             throttle: 0
         });
